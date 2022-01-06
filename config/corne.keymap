@@ -18,9 +18,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
