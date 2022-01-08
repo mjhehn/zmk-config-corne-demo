@@ -62,7 +62,7 @@
         layer_LH_2 {
             bindings = <
      &trans        &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2 &trans        &trans  &trans  &trans  &trans  &trans  &trans
-     &trans        &trans        &trans        &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+     &trans        &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_BRI &rgb_ug RGB_BRDf  &trans            &trans  &trans  &trans  &trans  &trans  &trans
      &trans        &trans        &trans        &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
                                                &trans  &trans  &trans            &trans  &trans  &trans
             >;
@@ -70,7 +70,7 @@
 
         layer_RH_2 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans                      &trans             &trans            &trans             &trans     &kp BACKSLASH  &rgb_ug RGB_TOG
+ &trans  &trans  &trans  &trans  &trans  &trans                      &trans             &trans            &trans             &trans     &kp BACKSLASH  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE           &trans
  &trans  &trans  &trans  &trans  &trans  &trans              &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_BRACE    &kp RIGHT_BRACE         &kp GRAVE           &trans
                          &trans  &trans  &trans                      &trans             &trans            &trans
